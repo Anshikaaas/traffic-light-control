@@ -1,3 +1,5 @@
+// Code your testbench here
+// or browse Examples
 `timescale 1ns / 1ps
 
 module lab3_TestBench();
@@ -21,7 +23,9 @@ module lab3_TestBench();
     end        
       
     initial begin          
-            #0 button <= 0;                                                      
+            #0 button <= 0;  
+      		$dumpfile("dump.vcd");
+    		$dumpvars(1);
             #200 button <= 1;
             #300 button <= 0;       
     end
