@@ -1,5 +1,5 @@
 # verilog_traffic_light
-Implementation of a 4-way traffic control system with verilog on artix-7 fpga
+Implementation of a 4-way traffic control system with verilog 
 
 
 design a state machine for the traffic lights at a simple four-way intersection with pedestrian crosswalks. Here is the problem description for the FSM:
