@@ -11,5 +11,7 @@ design a state machine for the traffic lights at a simple four-way intersection 
     The pedestrian green light will be on for 1 seconds. After this sequence, the car lights have to continue from where they left off before the button was pressed. If the north-south signal was green before the pedestrian light was on, then after the pedestrian light has gone through its green state to its red state, the east-west signal should turn to green.
 ![Setup](16.png)
 
+DEPLOYED ON EDA PLAYGROUND :https://edaplayground.com/x/7eak
+
 
     
